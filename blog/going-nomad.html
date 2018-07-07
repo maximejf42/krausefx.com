@@ -8,7 +8,7 @@
 
   <title>
     
-      Felix Krause
+      Going nomad &middot; Felix Krause
     
   </title>
   
@@ -119,186 +119,23 @@
 </div>
 
 
-        <div class="home">
-  
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline"><a href="/blog/ios-factor">iOS-factor: A methodology for building high-quality iOS apps</a></h1>
-        <p class="post-meta">
-          <time datetime="2018-07-07T00:00:00+00:00" itemprop="datePublished">
-            
-            Jul 7, 2018
-          </time>
-          </p>
-      </header>
-
-      <div class="post-content" itemprop="articleBody">
-        <p><a href="https://ios-factor.com">iOS-factor</a> was inspired by the famous <a href="https://www.12factor.net/">twelve-factor app framework</a>, a methodology to write high-quality web services. <a href="https://ios-factor.com">iOS-factor</a> uses the same structure and similar principles, re-written and applied to the iOS app development processes.</p>
-
-<h2 id="background">Background</h2>
-
-<p>Over the past 10 years, the iOS development process has shifted drastically:</p>
-
-<ul>
-  <li>from supporting a single device to a wide range of available iOS-powered iPhones and iPads and various platforms like tvOS and watchOS</li>
-  <li>from manually including git submodules to using dependency managers</li>
-  <li>from iOS apps mostly running locally on-device, to iOS apps heavily relying on backend services</li>
-  <li>from iOS app review times of more than 2 weeks to less than a day</li>
-  <li>from installing an app on your phone using iTunes to distributing apps through the official TestFlight channel</li>
-  <li>from uploading 5 screenshots per language to iTunes Connect to 110 per language, as well as app previews</li>
-  <li>from plain Objective-C/C++ apps to a mix of languages including JavaScript</li>
-  <li>from slow releases whenever something is ready, to shipping every single week</li>
-  <li>from full releases to A/B testing, slow rollouts and automatic regression detection</li>
-</ul>
-
-<h2 id="whats-ios-factor">What’s <a href="https://ios-factor.com">iOS-factor</a>?</h2>
-
-<p><a href="https://ios-factor.com">iOS-factor</a> is a project I started in May 2018. It aims to provide a collection of best practices for building high-end iOS applications. Each topic is covered by a <code class="highlighter-rouge">factor</code>, which describes an ideal state of how a certain category of the iOS app development process could look like.</p>
-
-<p>Due to certain limitations (like Xcode running only on macOS) not all requirements can be fulfilled. This project aims to define goals, as well as the best current approaches to solve some of the challenges we’re facing.</p>
-
-<p><a href="https://ios-factor.com">iOS-factor</a> is all about the bigger-picture iOS app development processes and architecture decisions and will not cover any language specific challenges.</p>
-
-<p>This is a living project, maintained by the iOS development community. You can find the full source on <a href="https://github.com/iOS-factor/iOS-factor.com">GitHub</a> and update existing pages or add new factors.</p>
-
-<h3 style="text-align: center; font-size: 140%"><a href="https://ios-factor.com">Open iOS-factor.com</a></h3>
-
-
-
-        <p style="margin-top: 30px" class="side-projects-note">
-  <small>Unless otherwise mentioned in the post, those projects are side projects which I work on on weekends and evenings, and are not affiliated with my work or employer.</small>
-</p>
-
-      </div>
-
-      <p class="extra-info">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline"><a href="/blog/going-nomad">Going nomad</a></h1>
+    <p class="post-meta">
+      <time datetime="2018-03-24T00:00:00+00:00" itemprop="datePublished">
         
-          Tags: ios &nbsp; | &nbsp; 
-        
-        <a href="https://github.com/KrauseFx/krausefx.com/edit/master/_posts/2018-07-07-ios-factor.md" target="_blank" class="forkButton">
+        Mar 24, 2018
+      </time> &nbsp; | &nbsp; 
+      <a href="https://github.com/KrauseFx/krausefx.com/edit/master/_posts/2018-03-24-going-nomad.md" target="_blank" class="forkButton">
   <svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
  
   Fork on GitHub
 </a>
-      </p>
-    </article>
-  
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline"><a href="/blog/ios-app-network-sandboxing">iOS apps should be inside a network sandbox</a></h1>
-        <p class="post-meta">
-          <time datetime="2018-05-23T00:00:00+00:00" itemprop="datePublished">
-            
-            May 23, 2018
-          </time>
-          </p>
-      </header>
+  </header>
 
-      <div class="post-content" itemprop="articleBody">
-        <h2 id="background">Background</h2>
-
-<p>With my recent publications, most importantly “<a href="https://krausefx.com/blog/trusting-sdks">Trusting SDKs</a>” it became clear that hijacked or malicious iOS apps cause major security and privacy risks for users, and allow attackers to reach a high number of users through a single point of failure.</p>
-
-<p>Most of the times, the consequences of those attacks are about data:</p>
-
-<ul>
-  <li>Usernames and passwords</li>
-  <li>Location data</li>
-  <li>Facial data</li>
-  <li>Advertising data</li>
-  <li>Address book entries</li>
-  <li>Payment information (e.g. credit cards)</li>
-  <li>Other personal information</li>
-</ul>
-
-<p>Notice how sandboxes in software are designed to keep data inside that box (in the form of a filesystem), but for some reason they stop when it comes to network requests.</p>
-
-<p>If an attacker manages to hijack an iOS app, the first thing they would do is sent the collected data to some server in their control.</p>
-
-<h2 id="idea">Idea</h2>
-
-<p>Initially just <a href="https://twitter.com/KrauseFx/status/962116690233339904">tweeting my shower thoughts</a> and reaching 300 likes &amp; 50 RTs, this idea grew more and more:</p>
-
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Apple should require every iOS app to define a list of web hosts that should be accessible, all other web requests will fail:<br /><br />- If an app gets compromised no data can leak<br />- It forces the use of SFSafariViewController<br />- Users should be able to see the host list</p>&mdash; Felix Krause (@KrauseFx) <a href="https://twitter.com/KrauseFx/status/962116690233339904?ref_src=twsrc%5Etfw">February 10, 2018</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-
-<h3 id="app-transport-security">App Transport Security</h3>
-
-<p>At <a href="https://techcrunch.com/2016/06/14/apple-will-require-https-connections-for-ios-apps-by-the-end-of-2016/">WWDC 2016 Apple announced ATS</a>, an iOS 9 feature to enforce the use of HTTPs across all iOS apps. It was said to be made mandatory by end of 2016, however the deadline was moved to an undefined date. The idea makes perfect sense: All the infrastructure and tools around HTTPs encryption people already have with their web browsers to verify the security on websites, don’t work on the iOS platform. If you use your banking or dating app, how can you as a user be sure the company didn’t mess things up? <a href="https://techcrunch.com/2018/04/02/grindr-sends-hiv-status-to-third-parties-and-some-personal-data-unencrypted/">It’s not like it happened before</a>.</p>
-
-<h3 id="web-vs-ios">Web vs iOS</h3>
-
-<p>On the web, <a href="https://developers.google.com/web/updates/2016/10/avoid-not-secure-warn">browsers started marking HTTP websites as “Not Secure”</a>, <a href="https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security">HSTS is built into browsers to force HTTPs for certain hosts</a>, <a href="https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?hl=en">people use HTTPSEverywhere to enforce HTTPs connection across more hosts</a> and <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en">people use uBlock to block certain tracking and ad widgets that slow down websites</a>.</p>
-
-<p>On iOS, you install and use an app, and hope that the app developer uses proper encryption, securely stores your personal information, and doesn’t use any sketchy SDKs that you wouldn’t trust yourself. If you don’t agree with something (e.g. an Analytics SDK), there is nothing you can do about it.</p>
-
-<h2 id="proposal">Proposal</h2>
-
-<h3 id="step-1">Step 1:</h3>
-
-<p>Finish the ATS plans. It’s been 2 years now, enough time for app developers to update their apps. Allow developers to file for an exception, and mark them accordingly on the App Store page with a badge of shame (similar to how <a href="https://developers.google.com/web/updates/2016/10/avoid-not-secure-warn">Chrome marks all non HTTPs websites</a> nowadays)</p>
-
-<h3 id="step-2">Step 2:</h3>
-
-<p><img src="/assets/posts/sandboxing.png" width="250" align="right" style="margin: 15px" /></p>
-
-<p>Introduce the concept of network sandboxes. Each app should define a list of hostnames they are allowed to access.</p>
-
-<p>Imagine a ride-sharing app having access to</p>
-
-<ul>
-  <li>my-ride-sharing-app.com</li>
-  <li>stripe.com</li>
-  <li>google-analytics.com</li>
-  <li>maps.google.com</li>
-</ul>
-
-<p>This list serves multiple purposes:</p>
-
-<ul>
-  <li>The app can only access those hosts. Meaning if an SDK is malicious or your app got hijacked in some way, they can’t access the scary internet and leak the user’s data.</li>
-  <li>The app review team will see a list as they approve the app. At the same time, they can see a diff of the hosts between app releases</li>
-  <li>The user should have a way to see that list as part of the App Store page</li>
-  <li>In the future we could even put the user in control by distinguishing between primary hosts (e.g. twitter.com) that are needed to have the app running, and secondary hosts (e.g. random-analytics-service.com). This however would come with many implications when it comes to revenue models of the majority of mobile apps.</li>
-</ul>
-
-<p>As always, exceptions should be possible, third party browsers should exist, and some apps might have to support so many hosts that they can’t follow those rules. And that’s okay, those apps will be marked as “Can access any host” as a little warning in the App Store.</p>
-
-<p>While the above doesn’t solve all the problems, it is a good first step into the right direction. We’ll run into problems, and we’ll solve them. It’s a necessary change for the mobile ecosystem, catching up with where we’re already at with web browsers nowadays.</p>
-
-
-        <p style="margin-top: 30px" class="side-projects-note">
-  <small>Unless otherwise mentioned in the post, those projects are side projects which I work on on weekends and evenings, and are not affiliated with my work or employer.</small>
-</p>
-
-      </div>
-
-      <p class="extra-info">
-        
-          Tags: privacy, security &nbsp; | &nbsp; 
-        
-        <a href="https://github.com/KrauseFx/krausefx.com/edit/master/_posts/2018-05-23-ios-app-network-sandboxing.md" target="_blank" class="forkButton">
-  <svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
- 
-  Fork on GitHub
-</a>
-      </p>
-    </article>
-  
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline"><a href="/blog/going-nomad">Going nomad</a></h1>
-        <p class="post-meta">
-          <time datetime="2018-03-24T00:00:00+00:00" itemprop="datePublished">
-            
-            Mar 24, 2018
-          </time>
-          </p>
-      </header>
-
-      <div class="post-content" itemprop="articleBody">
-        <div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">I got rid of all my stuff and live off only a suitcase - staying in Airbnbs to explore different areas 🏡🚀 excited to live nomad life <a href="https://t.co/nWGf7AFKiZ">pic.twitter.com/nWGf7AFKiZ</a></p>&mdash; Felix Krause (@KrauseFx) <a href="https://twitter.com/KrauseFx/status/928718106876305408?ref_src=twsrc%5Etfw">November 9, 2017</a></blockquote>
+  <div class="post-content" itemprop="articleBody">
+    <div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">I got rid of all my stuff and live off only a suitcase - staying in Airbnbs to explore different areas 🏡🚀 excited to live nomad life <a href="https://t.co/nWGf7AFKiZ">pic.twitter.com/nWGf7AFKiZ</a></p>&mdash; Felix Krause (@KrauseFx) <a href="https://twitter.com/KrauseFx/status/928718106876305408?ref_src=twsrc%5Etfw">November 9, 2017</a></blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
@@ -464,162 +301,23 @@
 
 
 
-        <p style="margin-top: 30px" class="side-projects-note">
+    <p style="margin-top: 30px" class="side-projects-note">
   <small>Unless otherwise mentioned in the post, those projects are side projects which I work on on weekends and evenings, and are not affiliated with my work or employer.</small>
 </p>
 
-      </div>
-
-      <p class="extra-info">
-        
-          Tags: twitter &nbsp; | &nbsp; 
-        
-        <a href="https://github.com/KrauseFx/krausefx.com/edit/master/_posts/2018-03-24-going-nomad.md" target="_blank" class="forkButton">
-  <svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
- 
-  Fork on GitHub
-</a>
-      </p>
-    </article>
-  
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline"><a href="/blog/how-i-use-twitter">How I use Twitter</a></h1>
-        <p class="post-meta">
-          <time datetime="2018-03-06T00:00:00+00:00" itemprop="datePublished">
-            
-            Mar 6, 2018
-          </time>
-          </p>
-      </header>
-
-      <div class="post-content" itemprop="articleBody">
-        <h2 id="background">Background</h2>
-
-<p>For most people, using the official Twitter client works fine. It’s optimized to show you new content you might be interested in, makes it easy to follow new users, and shows content that might be most relevant to you first. If you have an engineering mindset, chances are you want to be in control of what you see in your timeline.</p>
-
-<p>I use Twitter to stay up to date with certain people. I want to hear about new projects or new content they published, new blog posts, thoughts of them, etc. I’m not interested in hearing political opinions, sport scores, etc, which I already have Facebook for. If I follow someone, I’ll read every single tweet from them. For the last 5 years, I didn’t miss a tweet in my timeline, so I have to be very careful about who to follow, and what content to see. So I set out to customize Twitter to archive that goal, and to only see about 50-75 tweets per day.</p>
-
-<h2 id="solution">Solution</h2>
-
-<p>I’ve been using <a href="https://tapbots.com/tweetbot/">Tweetbot</a> for the last few years, the technique described below might work with other third party Twitter clients also.</p>
-
-<h3 id="muted-keywords">Muted Keywords</h3>
-
-<p>Very basic list of words, that as soon as a tweet contains one of them, it will be hidden, examples include:</p>
-
-<ul>
-  <li>headphone jack</li>
-  <li>drake</li>
-  <li>podcast</li>
-  <li>president</li>
-</ul>
-
-<h3 id="muted-users">Muted users</h3>
-
-<p>I stopped using this feature, now that I use secret lists to follow people (see below), and disabled RTs. Muting users for a given time period or forever is useful for a few situations:</p>
-
-<ul>
-  <li>Some users in your timeline might promote a product, so you can mute that product</li>
-  <li>If a user is at a conference/event you’re not interested in, you can mute them for a few days</li>
-</ul>
-
-<h3 id="muted-regexes">Muted Regexes</h3>
-
-<p>A very powerful feature of Tweetbot is to define a regex to hide tweet. I use it to hide annoying jokes like</p>
-
-<ul>
-  <li><code class="highlighter-rouge">remember \w+</code></li>
-  <li><code class="highlighter-rouge">german word for \w+</code></li>
-  <li><code class="highlighter-rouge">\w+ is the new \w+</code></li>
-</ul>
-
-<p>or to hide tweets from people that think we’re interested about their airplane delays or #sports</p>
-
-<ul>
-  <li><code class="highlighter-rouge">(virgin|Virgin|@United|delta|Delta|JetBlue|jetblue)</code></li>
-  <li>twitter.com/i/moments</li>
-  <li>For every #sports #event there are also custom-made mute filters (truncated): <code class="highlighter-rouge">(?#World Cup)(?i)((?# Terms)(Brazil\s*2014|FIFA|World\s*Cup|Soccer|F(oo|u)tbal)|(?# Chants)(go a l |[^\w](ole\s*){2,})|(?# Teams)(#(B....</code></li>
-</ul>
-
-<h3 id="hide-all-mentions">Hide all mentions</h3>
-
-<p>This very much changed my whole timeline (for the better). Turns out, I follow people for their announcements, what they work on, what they’re doing, what they’re thinking about, etc. I actually don’t want to see 2 people communicating publicly using @ mentions, unless it’s a topic I’m interested in. So I started hiding all tweets that start with an <code class="highlighter-rouge">@</code> symbol using a simple Tweetbot regex</p>
-
-<ul>
-  <li><code class="highlighter-rouge">^@</code></li>
-</ul>
-
-<p>If I want to see responses to a tweet, I’d swipe to the left side, and see all replies.</p>
-
-<h3 id="muted-clients">Muted Clients</h3>
-
-<p>Muting certain clients has been amazing, very easy to set up and cleans up your timeline a lot. Some of the clients I mute:</p>
-
-<ul>
-  <li>Buffer (to avoid “content marketing”, so many companies make the mistake of tweeting the same posts every week or so using Buffer)</li>
-  <li>IFTTT (lots of people use that to auto-post not original content)</li>
-  <li>Spotify</li>
-  <li>Foursquare (I follow friends on Swarm already, no need to see it twice)</li>
-  <li>Facebook</li>
-</ul>
-
-<p><img src="/assets/posts/tweetbot_filters.png" width="220" style="float: right; margin-left: 20px" /></p>
-
-<h3 id="secret-lists">Secret Lists</h3>
-
-<p>One issue I had was to balance the number of tweets in my timeline, and then also being polite and following friends. To avoid the whole “Why are you not following me?” conversation, I now use a private list to follow about 300 people only. I <a href="https://github.com/krausefx/twitter-unfollow">open sourced the script</a> I used to migrate all the people I used to follow over to a private list.</p>
-
-<h3 id="disable-rts">Disable RTs</h3>
-
-<p>This has been a great change: As described above, I follow people for what they do, what they think of, and what they’re working on. Some people have the habit of RTing content that might be interesting, but not relevant to why I want to stay subscribed to their tweets. On Tweetbot, you can.</p>
-
-<h3 id="muting-hashtags">Muting hashtags</h3>
-
-<p><img src="/assets/posts/tweetbot_filters_2.png" width="220" style="float: right; margin-left: 20px; margin-top: 20px" /></p>
-
-<p>I thank everyone for using hashtags for certain events, making it easy to hide them from my timeline :)</p>
-
-<h3 id="disadvantages-of-this-approach">Disadvantages of this approach</h3>
-
-<p>Some of the newer Twitter features don’t have an API, and therefore can’t be offered by Tweetbot. This includes Polls, Moments and Group DMs. Since I don’t want to miss group DMs, I set up email notifications for Twitter DMs, and set up a Gmail filter to auto-archive emails that are not from group DMs.</p>
-
-<h3 id="summary">Summary</h3>
-
-<p>I’ve spent quite some time optimizing that workflow, and it’s very specific, and probably not useful for most people. I try to minimize my time on social media, I only browse my Twitter feed when I have a few minutes to kill on the go. Meaning I work through my timeline only on my iPhone, and reply to mentions and DMs only on my Mac. I don’t want to come across uninterested, I do follow people on Facebook, I do read news and stay up to date. Twitter is a place for very specific content for me, and I want to keep using it as that.</p>
-
-
-        <p style="margin-top: 30px" class="side-projects-note">
-  <small>Unless otherwise mentioned in the post, those projects are side projects which I work on on weekends and evenings, and are not affiliated with my work or employer.</small>
-</p>
-
-      </div>
-
-      <p class="extra-info">
-        
-          Tags: twitter &nbsp; | &nbsp; 
-        
-        <a href="https://github.com/KrauseFx/krausefx.com/edit/master/_posts/2018-03-06-how-i-use-twitter.md" target="_blank" class="forkButton">
-  <svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
- 
-  Fork on GitHub
-</a>
-      </p>
-    </article>
-  
-
-  <!-- Pagination links -->
-  <div class="pagination">
-    
-      <span class="previous">Newer</span>
-    
-    /
-    
-      <a href="/blog/page2/" class="next">Older</a>
-    
   </div>
 
-</div>
+  <p class="extra-info">
+    
+      Tags: twitter &nbsp; | &nbsp; 
+    
+    <a href="https://github.com/KrauseFx/krausefx.com/edit/master/_posts/2018-03-24-going-nomad.md" target="_blank" class="forkButton">
+  <svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+ 
+  Fork on GitHub
+</a>
+  </p>
+</article>
 
       </div>
     </main>
